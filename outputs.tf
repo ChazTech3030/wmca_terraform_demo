@@ -3,6 +3,10 @@
 #   sensitive = true
 # }
 
+output "test" { 
+    value = "test"
+}
+
 # output "vault_secret_stuff" {
 #   value = data.vault_generic_secret.instance_size_demo.data["InstanceSize_dev"]
 #   sensitive = true
