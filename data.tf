@@ -7,6 +7,10 @@ data "aws_ami" "ami_number" {
   }
 }
 
+
+
+
+
 data "vault_generic_secret" "instance_size_demo" {
   path = "kv/any_path_value"
 }
