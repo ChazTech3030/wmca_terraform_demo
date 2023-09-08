@@ -4,7 +4,7 @@
 # }
 
 output "test" { 
-    value = "test 2"
+    value = "test 3"
 }
 
 # output "vault_secret_stuff" {
